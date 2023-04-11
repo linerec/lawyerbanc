@@ -323,10 +323,16 @@ section.home { position: relative; }
 section.home.promo { background: #fff; }
 section.home.promo div.container { min-height: 540px; padding-top: 100px; background: url("../images/sections/searchbanner/bg_01.jpg") right 20px bottom no-repeat; }
 section.home.promo h1 { font: 600 4.28rem/1.0 "HGGGothicssi_Pro", serif; letter-spacing: -0.1em; color: var(--Lic-Main); }
-section.home.promo h1 small { color: var(--Lic-Gray); }
+section.home.promo h1 small { color: var(--Lic-Gray); letter-spacing: -0.05em; }
 section.home.promo h2 { margin-top: 2.0rem; font-size: 2.5rem; font-weight: 200; line-height: 1.2; letter-spacing: -0.07em; }
 section.home.lawyer { padding: 70px 0 60px; background: var(--Lic-Light); }
 section.home.field { padding: 40px 0 130px; background: #eee5f2; }
+
+section.home.map { background: #fff; }
+section.home.map div.container{ min-height: 540px; padding-top: 100px; background: url("../images/sections/map/bg_01.jpg") right 20px bottom no-repeat; }
+section.home.map h1 { font: 600 4.28rem/1.0 "HGGGothicssi_Pro", serif; letter-spacing: -0.1em; color: var(--Lic-Main); }
+section.home.map h1 small { color: var(--Lic-Gray); letter-spacing: -0.05em; }
+section.home.map h2 { margin-top: 2.0rem; font-size: 2.5rem; font-weight: 200; line-height: 1.2; letter-spacing: -0.07em; }
 
 div.lawyer-list { display: flex; justify-content: center; margin-top: 60px; overflow: hidden; }
 div.lawyer-list div.card { position: relative; flex: 0 0 290px; margin: 40px 10px 10px; border: 1px solid #fff; box-sizing: border-box; transition: all 0.3s; }
@@ -1036,6 +1042,7 @@ div.foot-menu { margin-top: 50px; }
 /********** HOME **********/
 
 section.home.promo div.container { height: 420px; padding-top: 80px; background-size: auto 360px; }
+section.home.map div.container { height: 420px; padding-top: 80px; background-size: auto 360px; }
 section.home.lawyer { padding: 60px 0 50px; }
 section.home.field { padding: 30px 0 120px; }
 div.lawyer-list { margin-top: 30px; }
@@ -1124,6 +1131,7 @@ section.visual h1.ctg-head:after { width: 18px; height: 18px;background-size: 18
 /********** HOME **********/
 
 section.home.promo div.container { height: 400px; background-size: auto 300px; }
+section.home.map div.container { height: 400px; background-size: auto 300px; }
 section.home.promo h1 { font-size: 3.86rem; }
 section.home.promo h2 { margin-top: 1.72rem; font-size: 2.58rem; }
 div.quick-link { padding: 30px; }
@@ -1242,6 +1250,9 @@ div.button-wrap div.button a.button:hover { padding: 0 1.72rem; }
 section.home.promo div.container { height: 340px; padding-top: 60px; background-size: auto 240px; }
 section.home.promo h1 { font-size: 3.42rem; }
 section.home.promo h2 { margin-top: 1.42rem; font-size: 2.28rem; }
+section.home.map div.container { height: 340px; padding-top: 60px; background-size: auto 240px; }
+section.home.map h1 { font-size: 3.42rem; }
+section.home.map h2 { margin-top: 1.42rem; font-size: 2.28rem; }
 section.home.lawyer { padding: 50px 0 40px; }
 section.home.field { padding: 20px 0 110px; }
 div.recommand { padding: 0 40px; }
@@ -1389,6 +1400,9 @@ div.foot-foot { margin-top: 30px; }
 section.home.promo div.container { height: 300px; padding-top: 50px; background-size: auto 200px; }
 section.home.promo h1 { font-size: 2.86rem; }
 section.home.promo h2 { margin-top: 1.28rem; font-size: 2.0rem; }
+section.home.map div.container { height: 300px; padding-top: 50px; background-size: auto 200px; }
+section.home.map h1 { font-size: 2.86rem; }
+section.home.map h2 { margin-top: 1.28rem; font-size: 2.0rem; }
 div.quick-link button { flex: 0 1 100px; height: 100px; margin: 0.58rem; padding-top: 50px; background-position: center calc(50% - 10px); background-size: 30px; font-size: 1.14rem; }
 
 /********** LAWYER **********/
@@ -1577,6 +1591,9 @@ section.home.promo h1 { font-size: 2.58rem; }
 section.home.promo h2 { margin-top: 0.72rem; font-size: 1.42rem; font-weight: 300; }
 section.home.lawyer { padding: 40px 0 30px; }
 section.home.field { padding: 10px 0 80px; }
+section.home.map div.container { height: 260px; padding: 30px 30px 0; background-size: auto 140px; }
+section.home.map h1 { font-size: 2.58rem; }
+section.home.map h2 { margin-top: 0.72rem; font-size: 1.42rem; font-weight: 300; }
 div.lawyer-list figure { width: 80px; height: 96px; }
 div.lawyer-list div.keyword-wrap { margin-top: 64px; }
 div.lawyer-list + a.lawyer-more,

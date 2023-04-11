@@ -26,7 +26,7 @@ export default function MapService() {
   }, [selectedArea]);
 
   return (
-    <section className="home promo">
+    <section className="home map">
       <div className="container">
         <div className="row">
           <div className="col-md-6">
