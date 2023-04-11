@@ -105,7 +105,7 @@ const SearchBar = () => {
             <input
               name="kword"
               type="text"
-              placeholder="지역, 분야, 사례, 변호사 이름을 검색해보세요"
+              placeholder="골프장, 드라이빙 레인지, 강습 등 원하는 정보를 검색해보세요!"
               role="combobox"
               aria-autocomplete="list"
               aria-expanded="false"

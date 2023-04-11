@@ -14,6 +14,7 @@ import FeaturesShop from "../components/shop/FeaturesShop";
 import Testimonial1 from "../components/testimonial/Testimonial1";
 import WhyChooseUs from "../components/whyChooseUs/WhyChooseUs";
 import Header1 from "./../components/header/Header1";
+import MapService from "@components/service/MapService";
 import Header from "./../components/header/Header";
 import LawyersBanner from "./../components/lawyers/LawyersBanner";
 import FieldsBanner from "../components/fields/FieldsBanner";
@@ -64,7 +65,8 @@ export default function Home({ data }) {
           <SearchBanner />
           <LawyersBanner />
           <FieldsBanner />
-          <Banner1 />
+          <MapService />
+          {/* <Banner1 />
           <CreativeService />
           <PopularService />
           <HomeService />
@@ -73,7 +75,7 @@ export default function Home({ data }) {
           <WhyChooseUs />
           <Testimonial1 />
           <HowItwork1 />
-          <Home1Blog />
+          <Home1Blog /> */}
           <Footer />
         </>
       )}

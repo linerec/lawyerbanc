@@ -19,9 +19,11 @@ function Header() {
               <Link className="home" href="/">
                 홈
               </Link>
-              <Link href="/search">변호사 찾기</Link>
-              <Link href="/via">사건 의뢰하기</Link>
-              <Link href="/task">업무 의뢰하기</Link>
+              <Link href="/search">골프장 찾기</Link>
+              <Link href="/via">스크린 골프</Link>
+              <Link href="/task">필드&조인</Link>
+              <Link href="/task">라운딩 후기</Link>
+              <Link href="/task">이벤트</Link>
             </div>
             <div className="util">
               <Link href="/intro">서비스 소개</Link>
