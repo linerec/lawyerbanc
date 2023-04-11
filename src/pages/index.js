@@ -37,30 +37,6 @@ export default function Home({ data }) {
         <Preloader />
       ) : (
         <>
-          <NextSeo
-            title={seoData.title}
-            description={seoData.description}
-            canonical={"https://www.example.com"}
-            openGraph={{
-              url: "https://www.example.com",
-              title: seoData.og_title,
-              description: seoData.og_description,
-              images: [
-                {
-                  url: seoData.og_image,
-                  width: 800,
-                  height: 600,
-                  alt: "Og Image Alt",
-                },
-              ],
-              site_name: "SiteName",
-            }}
-            twitter={{
-              handle: "@handle",
-              site: "@site",
-              cardType: "summary_large_image",
-            }}
-          />
           <Header />
           <SearchBanner />
           <LawyersBanner />
@@ -81,13 +57,4 @@ export default function Home({ data }) {
       )}
     </>
   );
-}
-
-export async function getStaticProps({ params }) {
-  const res = await fetch(`${process.env.API_URL}/seo/get-seo?id=home`);
-  const data = await res.json();
-
-  return {
-    props: { data, status: "success" },
-  };
 }
