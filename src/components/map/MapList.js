@@ -5,7 +5,7 @@ const MapList = ({ golfCourses }) => {
   return (
     <div>
       <h1>
-        골프코스<small>Golf Courses</small>
+        골프코스 <small>Golf Courses</small>
       </h1>
       <ul>
         {golfCourses.map((golfCourse) => (
